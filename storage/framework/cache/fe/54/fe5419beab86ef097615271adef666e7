@@ -1,0 +1,75 @@
+1475618033a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1030:"description = "Default layout"
+==
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ this.page.title }}</title>
+        {% styles %}
+        <link href="{{ [
+            'assets/css/app.css'
+        ]|theme }}" rel="stylesheet">
+    </head>
+    <body class="page-{{ this.page.id }}">
+    <div class="row">
+        <div class="large-12 columns">
+
+            {% partial 'header' %}
+
+            {% page %}
+
+            {% partial 'footer' %}
+        </div>
+    </div>
+
+        <script src="{{ [
+            'assets/js/vendor/jquery.min.js',
+            'assets/js/vendor/what-input.min.js',
+            'assets/js/vendor/foundation.min.js',
+
+            '@framework',
+            '@framework.extras',
+
+            'assets/js/app.js']|theme }}"></script>
+
+        {% scripts %}
+    </body>
+</html>";s:5:"mtime";i:1475616429;s:6:"markup";s:994:"<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ this.page.title }}</title>
+        {% styles %}
+        <link href="{{ [
+            'assets/css/app.css'
+        ]|theme }}" rel="stylesheet">
+    </head>
+    <body class="page-{{ this.page.id }}">
+    <div class="row">
+        <div class="large-12 columns">
+
+            {% partial 'header' %}
+
+            {% page %}
+
+            {% partial 'footer' %}
+        </div>
+    </div>
+
+        <script src="{{ [
+            'assets/js/vendor/jquery.min.js',
+            'assets/js/vendor/what-input.min.js',
+            'assets/js/vendor/foundation.min.js',
+
+            '@framework',
+            '@framework.extras',
+
+            'assets/js/app.js']|theme }}"></script>
+
+        {% scripts %}
+    </body>
+</html>";s:4:"code";N;s:11:"description";s:14:"Default layout";}}

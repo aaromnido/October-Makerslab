@@ -15,7 +15,12 @@ description = "Default layout"
     <body class="page-{{ this.page.id }}">
     <div class="row">
         <div class="large-12 columns">
+
+            {% partial 'header' %}
+
             {% page %}
+
+            {% partial 'footer' %}
         </div>
     </div>
 

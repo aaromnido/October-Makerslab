@@ -1,0 +1,16 @@
+<header class="header">
+
+    <nav class="nav navbar-nav text-right">
+        <a href="{{ 'inicio'|page }}" class="{% if this.page.id == 'inicio' %}active{% endif %}">Inicio</a> | 
+        <a href="{{ 'actividades'|page }}" class="{% if this.page.id == 'actividades' %}active{% endif %}">Actividades</a> | 
+        <a href="{{ 'somos'|page }}" class="{% if this.page.id == 'somos' %}active{% endif %}">Somos</a> | 
+        <a href="{{ 'donde-estamos'|page }}" class="{% if this.page.id == 'donde-estamos' %}active{% endif %}">Donde estamos</a>
+    </nav>
+
+    <h2>{{ this.page.title }}</h2>
+
+    <hr>
+</header>
+
+
+<!--<img src="{{ 'assets/images/theme-preview.png'|theme }}">-->

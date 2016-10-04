@@ -42,24 +42,39 @@ class __TwigTemplate_0cbc0cb5930e6dd6b499d172a92094f20634f427222dd04594552a9e509
         echo "\">
     <div class=\"row\">
         <div class=\"large-12 columns\">
+
             ";
-        // line 16
-        echo $this->env->getExtension('CMS')->pageFunction();
         // line 17
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('CMS')->partialFunction("header"        , $context['__cms_partial_params']        );
+        unset($context['__cms_partial_params']);
+        // line 18
+        echo "
+            ";
+        // line 19
+        echo $this->env->getExtension('CMS')->pageFunction();
+        // line 20
+        echo "
+            ";
+        // line 21
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('CMS')->partialFunction("footer"        , $context['__cms_partial_params']        );
+        unset($context['__cms_partial_params']);
+        // line 22
         echo "        </div>
     </div>
 
         <script src=\"";
-        // line 20
+        // line 25
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/js/vendor/jquery.min.js", 1 => "assets/js/vendor/what-input.min.js", 2 => "assets/js/vendor/foundation.min.js", 3 => "@framework", 4 => "@framework.extras", 5 => "assets/js/app.js"));
-        // line 28
+        // line 33
         echo "\"></script>
 
         ";
-        // line 30
+        // line 35
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 31
+        // line 36
         echo "    </body>
 </html>";
     }
@@ -76,7 +91,7 @@ class __TwigTemplate_0cbc0cb5930e6dd6b499d172a92094f20634f427222dd04594552a9e509
 
     public function getDebugInfo()
     {
-        return array (  63 => 31,  60 => 30,  56 => 28,  54 => 20,  49 => 17,  47 => 16,  41 => 13,  37 => 11,  34 => 9,  31 => 8,  27 => 7,  19 => 1,);
+        return array (  78 => 36,  75 => 35,  71 => 33,  69 => 25,  64 => 22,  60 => 21,  57 => 20,  55 => 19,  52 => 18,  48 => 17,  41 => 13,  37 => 11,  34 => 9,  31 => 8,  27 => 7,  19 => 1,);
     }
 }
 /* <!doctype html>*/
@@ -94,7 +109,12 @@ class __TwigTemplate_0cbc0cb5930e6dd6b499d172a92094f20634f427222dd04594552a9e509
 /*     <body class="page-{{ this.page.id }}">*/
 /*     <div class="row">*/
 /*         <div class="large-12 columns">*/
+/* */
+/*             {% partial 'header' %}*/
+/* */
 /*             {% page %}*/
+/* */
+/*             {% partial 'footer' %}*/
 /*         </div>*/
 /*     </div>*/
 /* */

@@ -1,12 +1,14 @@
-1475606684a:1:{s:8:"home.htm";a:9:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:211:"title = "Blank Foundation theme"
+1475618033a:1:{s:8:"home.htm";a:9:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:1499:"title = "Inicio"
 url = "/"
 layout = "default"
 is_hidden = 0
 ==
-<div class="small-12 columns text-center">
-    <img src="{{ 'assets/images/theme-preview.png'|theme }}">
-    <h1>Home</h1>
-</div>";s:5:"mtime";i:1475604122;s:6:"markup";s:132:"<div class="small-12 columns text-center">
-    <img src="{{ 'assets/images/theme-preview.png'|theme }}">
-    <h1>Home</h1>
-</div>";s:4:"code";N;s:5:"title";s:22:"Blank Foundation theme";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}
+<p>Dictum varius. In quis laoreet nulla, id scelerisque nulla. Phasellus congue sollicitudin arcu. Nulla at orci sed metus sollicitudin euismod a et ligula. Donec facilisis mauris non lectus sodales aliquam. In tempor pulvinar justo interdum gravida. Curabitur ut mi eros. Cras ut ullamcorper dui. Cras semper, quam quis iaculis congue, eros erat consectetur purus, ac rutrum orci diam et nisl. Nunc non pretium sem, quis fringilla urna. Sed nec eros augue.</p>
+
+<p>Sed fermentum commodo ex, sit amet porta lacus congue sed. Vestibulum turpis diam, sodales id neque sed, mattis feugiat lorem. Mauris et erat volutpat nibh finibus auctor. Suspendisse nec eleifend orci. Proin id sapien ac est rhoncus suscipit ac eget diam. Vestibulum mollis, tellus eget rhoncus feugiat, tortor leo egestas justo, posuere scelerisque magna velit quis quam. Sed rhoncus nisl nibh, et elementum tortor porta vel. Praesent fringilla ante nunc, et sagittis ipsum hendrerit id. Donec facilisis imperdiet risus, quis interdum urna dictum quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra ante nibh, faucibus euismod massa rutrum at.</p>
+
+<p>Pellentesque egestas tincidunt diam nec ultrices. Duis ac tristique turpis. Maecenas eu eros vel justo facilisis viverra. Donec elementum orci vel ultrices commodo. Morbi sit amet blandit dolor. Vestibulum semper sem tortor, vitae commodo lorem viverra eu. Donec in enim tortor.</p>";s:5:"mtime";i:1475615811;s:6:"markup";s:1436:"<p>Dictum varius. In quis laoreet nulla, id scelerisque nulla. Phasellus congue sollicitudin arcu. Nulla at orci sed metus sollicitudin euismod a et ligula. Donec facilisis mauris non lectus sodales aliquam. In tempor pulvinar justo interdum gravida. Curabitur ut mi eros. Cras ut ullamcorper dui. Cras semper, quam quis iaculis congue, eros erat consectetur purus, ac rutrum orci diam et nisl. Nunc non pretium sem, quis fringilla urna. Sed nec eros augue.</p>
+
+<p>Sed fermentum commodo ex, sit amet porta lacus congue sed. Vestibulum turpis diam, sodales id neque sed, mattis feugiat lorem. Mauris et erat volutpat nibh finibus auctor. Suspendisse nec eleifend orci. Proin id sapien ac est rhoncus suscipit ac eget diam. Vestibulum mollis, tellus eget rhoncus feugiat, tortor leo egestas justo, posuere scelerisque magna velit quis quam. Sed rhoncus nisl nibh, et elementum tortor porta vel. Praesent fringilla ante nunc, et sagittis ipsum hendrerit id. Donec facilisis imperdiet risus, quis interdum urna dictum quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra ante nibh, faucibus euismod massa rutrum at.</p>
+
+<p>Pellentesque egestas tincidunt diam nec ultrices. Duis ac tristique turpis. Maecenas eu eros vel justo facilisis viverra. Donec elementum orci vel ultrices commodo. Morbi sit amet blandit dolor. Vestibulum semper sem tortor, vitae commodo lorem viverra eu. Donec in enim tortor.</p>";s:4:"code";N;s:5:"title";s:6:"Inicio";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

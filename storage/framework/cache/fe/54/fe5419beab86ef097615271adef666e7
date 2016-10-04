@@ -1,4 +1,4 @@
-1475606684a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:952:"description = "Default layout"
+1475618033a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1030:"description = "Default layout"
 ==
 <!doctype html>
 <html class="no-js" lang="en">
@@ -15,7 +15,12 @@
     <body class="page-{{ this.page.id }}">
     <div class="row">
         <div class="large-12 columns">
+
+            {% partial 'header' %}
+
             {% page %}
+
+            {% partial 'footer' %}
         </div>
     </div>
 
@@ -31,7 +36,7 @@
 
         {% scripts %}
     </body>
-</html>";s:5:"mtime";i:1475603489;s:6:"markup";s:916:"<!doctype html>
+</html>";s:5:"mtime";i:1475616429;s:6:"markup";s:994:"<!doctype html>
 <html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
@@ -46,7 +51,12 @@
     <body class="page-{{ this.page.id }}">
     <div class="row">
         <div class="large-12 columns">
+
+            {% partial 'header' %}
+
             {% page %}
+
+            {% partial 'footer' %}
         </div>
     </div>
 
